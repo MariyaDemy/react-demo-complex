@@ -60,7 +60,7 @@ componentDidMount() {
 ### Option 2: ProvidePlugin (see the [demo-provideplugin](https://github.com/webix-hub/react-demo-complex/tree/demo-provideplugin) branch)
 
 Another option is to use [ProvidePlugin](https://webpack.js.org/plugins/provide-plugin/).
-This is required if you want to initialize the File Manager [as a Jet application](https://docs.webix.com/filemanager__creating_filemanager.html) (or other complex widgets that support this feature).<br/>
+When using auto import of webix-pro, it is required to initialize the File Manager (or other complex widget that supports this feature) [as a Jet application](https://docs.webix.com/filemanager__creating_filemanager.html).<br/>
 The Spreadsheet and Kanban will be initialized in the same way as in the 1st option.
 
 In Webpack configuration, add
